@@ -9,6 +9,11 @@
 >Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
 >The regex we'll be deciphering is /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}/
+>This expression checks for the following criteria:
+- The string must contain at least one digit __(?=.*\d)__
+- The string must contain at least one lowercase letter __(?=.*[a-z])__
+- The string must contain at least one uppercase letter __(?=.*[A-Z])__
+- The string must have a length of at least 6 characters __.{6,}__
 
 
 ## Table of Contents
